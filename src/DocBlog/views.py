@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, "index.html", context={"prenom": "Gwen", "date": datetime.today()})
+    return render(request, "DocBlog/index.html", context={"prenom": "Gwen", "date": datetime.today()})
