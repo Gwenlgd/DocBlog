@@ -8,3 +8,5 @@ class BlogPost(models.Model):
     published = models.BooleanField(default=False)
     date = models.DateField(blank=True)
     content = models.TextField()
+    description = models.TextField()
+
